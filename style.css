@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100&display=swap');
+:root{
+    --main-bg-color:#2874f0;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.my-2{
+    margin: 2vh 0;
+}
+.card{
+    margin: 1vh 0 0vh 0;
+    padding: 1vh 1vw;
+    display: flex;
+    flex-direction: column;
+}
+.lines{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cards{
+    display: flex;
+    overflow: hidden;
+}
+.card-item{
+    margin: 2vh 1vw;
+}
+.slider{
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width:28vw;
+    height: 25px;
+    padding: 0 15px;
+    margin:0 20px 0 60px;
+    border-radius: 5px;
+}
+.btn{
+    padding: 5px 18px;
+    border-radius: 5px;
+    background-color: var(--main-bg-color);
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+}
+.btn:hover{
+    color:rgb(135, 150, 235);
+    font-weight: bolder;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 90px;
+    padding: 0 25px;
+}
+nav{
+    display: flex;
+}
+nav ul li{
+    list-style:none;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 3vh;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: darkblue;
+    font-weight: bolder;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    height:9vh ;
+}
+header{
+    height: 9vh;
+    background-color:var(--main-bg-color);
+    font-family: 'Bitter', serif;
+    font-weight: bold;
+    
+}
+footer{
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    color: black;
+    font-size: 4vh;
+    font-family: 'Bitter', serif;
+    font-weight: bold;
+}
